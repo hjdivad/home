@@ -1,0 +1,33 @@
+# vim:ft=yaml:
+
+cookbook_paths:
+  - ./cookbooks
+recipes: []
+node_attributes:  {}
+env_variable_switches:
+  ROLES:
+    workstation:
+      recipes:
+        - hjdivad-home::adium
+        - hjdivad-home::ccmenu
+        - hjdivad-home::chrome
+        - hjdivad-home::dotfiles
+        - hjdivad-home::menumeters
+        - hjdivad-home::iterm2
+        - hjdivad-home::propane
+        - hjdivad-home::size_up
+        - hjdivad-home::skype
+        - hjdivad-home::vim
+        - hjdivad-home::redis
+        - hjdivad-home::node
+        - hjdivad-home::pc_keyboard_hack
+        - hjdivad-home::os_x_preferences_common
+        - hjdivad-home::inconsolata
+        - hjdivad-home::tmux
+    home:
+      recipes:
+        - hjdivad-home::steam
+        - hjdivad-home::devel
+        - hjdivad-home::gitconfig_personal
+        - hjdivad-home::os_x_preferences_eccentric
+

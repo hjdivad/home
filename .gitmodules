@@ -1,0 +1,3 @@
+[submodule "cookbooks/dmg"]
+	path = cookbooks/dmg
+	url = git://github.com/opscode-cookbooks/dmg.git
